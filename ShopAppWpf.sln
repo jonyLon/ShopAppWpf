@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopAppWpf", "ShopAppWpf.csproj", "{D308494F-2F23-4970-A888-C4139A4E4B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbCreator", "..\DbCreator\DbCreator.csproj", "{C34CB2C4-1A16-462A-8741-1DC34E44F7B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D308494F-2F23-4970-A888-C4139A4E4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D308494F-2F23-4970-A888-C4139A4E4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D308494F-2F23-4970-A888-C4139A4E4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D308494F-2F23-4970-A888-C4139A4E4B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34CB2C4-1A16-462A-8741-1DC34E44F7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34CB2C4-1A16-462A-8741-1DC34E44F7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34CB2C4-1A16-462A-8741-1DC34E44F7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34CB2C4-1A16-462A-8741-1DC34E44F7B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9963290-B8B4-47AF-9E1B-72B01C208811}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿<Window x:Class="ShopAppWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopAppWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <DockPanel>
+            <ToolBar DockPanel.Dock="Top">
+                <TextBlock VerticalAlignment="Center" Text="Enter shop name or leave empty:" Padding="5" />
+                <TextBox Grid.Column="1" Padding="5" x:Name="line" Width="221" />
+                <Button Click="getShops" FontSize="16" Padding="5" Margin="5" Background="Black">Load Shops</Button>
+                <Button Click="getProducts" FontSize="16" Padding="5" Margin="5" Background="Black">Load Products</Button>
+                <Button Click="getWorkers" FontSize="16" Padding="5" Margin="5" Background="Black">Load Workers</Button>
+            </ToolBar>
+            <StackPanel>
+                <DataGrid x:Name="grid_shops" AutoGenerateColumns="True" Height="200"></DataGrid>
+                <DataGrid x:Name="grid_prods" AutoGenerateColumns="True" Height="200"></DataGrid>
+                <DataGrid x:Name="grid_work" AutoGenerateColumns="True" Height="200"></DataGrid>
+            </StackPanel>
+
+        </DockPanel>
+    </Grid>
+</Window>
